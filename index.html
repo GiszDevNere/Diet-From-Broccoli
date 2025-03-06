@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Diety</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">broccoli</h1>
+        <ul class="navlinks">
+            <li><a class="active"  href="index.html">Home</a></li>
+            <li><a href="#">Diets</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="5828803-200.png" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Diet From Broccoli</h2>
+            <div class="line"></div>
+            <h1>See Our Diets</h1>
+            <a href="#diet" class="ctn">See more </a>
+        </div>
+    </header>
+    <section class="diet"> 
+        <div class="title">
+            <h1>Our Diets</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="keto.jpg">
+                <h4>Keto</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis dolorum incidunt adipisci animi odit?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="białko.jpg">
+                <h4>High protein</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis dolorum incidunt adipisci animi odit?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+        <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="keto.jpg">
+                <h4>Normal </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis dolorum incidunt adipisci animi odit?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="białko.jpg">
+                <h4>Low protein</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis dolorum incidunt adipisci animi odit?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script>
+        menuBtn = document.querySelector('.menu-btn')
+        navlinks = document.querySelector('.navlinks')
+
+        menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
